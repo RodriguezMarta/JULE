@@ -3,7 +3,7 @@ import os
 import urllib.request
 
 # Directorio donde descargar las imágenes
-images_dir = '../data/images/'
+images_dir = '../data/zip_images/'
 
 if not os.path.exists(images_dir):
     os.makedirs(images_dir)
